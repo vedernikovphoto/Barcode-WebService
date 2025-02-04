@@ -1,0 +1,4 @@
+outs:
+- md5: b6baca9b05fef0041d7300fe11415970
+  size: 28499072
+  path: barcode_detection.onnx

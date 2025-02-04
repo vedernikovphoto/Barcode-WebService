@@ -1,0 +1,4 @@
+outs:
+- md5: f8c31169096cf954125316f2ff8aa8d1
+  size: 4138489
+  path: barcode_ocr.pt

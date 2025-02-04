@@ -1,0 +1,15 @@
+services:
+  config_path: "config/config.yml"
+  barcode_detection:
+    model_path: 'weights/barcode_detection.onnx'
+    temp_folder: 'temp_folder_detection'
+    device: 'cpu'
+    input_size: [3, 640, 640]
+    conf_thres: 0.9
+    iou_thres: 0.15
+
+  barcode_ocr:
+    model_path: 'weights/barcode_ocr.pt'
+    device: 'cpu'
+    input_size: [416, 96]
+    vocab: '0123456789'
